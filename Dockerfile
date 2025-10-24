@@ -4,7 +4,7 @@ WORKDIR /app
 COPY requirements.txt . 
 RUN pip install -r requirements.txt
 
-COPY app.py .
+COPY mirzabaig.py .
 
 EXPOSE 5000 
-CMD ["python", "app.py"]
+CMD ["python", "mirzabaig.py"]
