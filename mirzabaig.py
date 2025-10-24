@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def hello():
-return "Hello, World! This is a simple Python app for Jenkins Project", 200
+    return "Hello, World! This is a simple Python app for Jenkins Project", 200
 
 
 if __name__ == "__main__":
